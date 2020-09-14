@@ -1,4 +1,4 @@
-
+package src.com.dragon;
 
 public class Product {
     private String name;
