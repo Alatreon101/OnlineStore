@@ -13,10 +13,10 @@ public class Store implements ImplBasket {
 
         Store stores = new Store();
 
-        stores.addProduct("Apple", 3);
-        stores.addProduct("Sumsung", 6);
-        stores.addProduct("Xiaomi", 9);
-        stores.addProduct("LG", 7);
+        stores.addProduct("Вода", 10);
+        stores.addProduct("Молоко", 5);
+        stores.addProduct("Кофе", 7);
+        stores.addProduct("Хлеб", 2);
         showStore("Добавили товары в корзину:", stores.products);
 
         stores.removeProduct("Хлеб");
